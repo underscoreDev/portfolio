@@ -65,25 +65,25 @@
   "projects": {
     "Audiophile-Frontend": {
       "name": "Audiophile Frontend",
-      "description": "• Audiophile is a Fullstack e‑commerce online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user‑friendly format and keeping accessibility in mind \n • TECH STACK: Typescript, Redux‑Toolkit, NextJs, Styled-Components, Material-UI, Framer-motion, Formik and Yup for Form Validation.",
+      "description": "\n \t • Audiophile is a Fullstack e‑commerce online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user‑friendly format and keeping accessibility in mind. \n \t • TECH STACK: Typescript, Redux‑Toolkit, NextJs, Styled-Components, Material-UI, Framer-motion, Formik and Yup for Form Validation.",
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
       "gif_url": "",
       "live_url": "https://audiophile-frontend-seven.vercel.app/",
       "github_url": "https://github.com/underscoreDev/audiophile-frontend"
     },
 
-    "Audiophile-Backend": {
+    "Audiophile-Backend-API": {
       "name": "Audiophile Backend API",
-      "description": "• Backend Repo for Audiophile e-commerce website. Audiophile is a online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user-friendly format and keeping accessibility in mind \n • TECH STACK: Typescript, NodeJs, MongoDB, Mongoose, ExpressJs, Flutterwave Webhook API Integration, Sharp (for Image Processing), AWS SDK, Bcrypt and JWT for Authentication",
+      "description": "\n \t• Backend API for Audiophile e-commerce website.  \n \t• TECH STACK: Typescript, NodeJs, MongoDB, Mongoose, ExpressJs, Flutterwave Webhook API Integration, Sharp (for Image Processing), AWS SDK, Bcrypt and JWT for Authentication",
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
       "gif_url": "",
-      "live_url": "https://audiophile-frontend-seven.vercel.app/",
-      "github_url": "https://github.com/underscoreDev/audiophile-backend"
+      "github_url": "https://github.com/underscoreDev/audiophile-backend",
+      "live_url": "https://github.com/underscoreDev/audiophile-backend"
     },
 
     "Readable": {
       "name": "Readable",
-      "description": "• Readable is a Fullstack content and comment web application similar to reddit built with Next.js for the frontend and NodeJs for the backend, In the app Users will be able to post content to predefined categories, comment on their posts and other users posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments. \n • TECH STACK: Javascript, NodeJs, ExpressJs",
+      "description": " \n \t• Readable is a Fullstack content and comment web application similar to reddit built with Next.js for the frontend and NodeJs for the backend, In the app Users will be able to post content to predefined categories, comment on their posts and other users posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments. \n • TECH STACK: Javascript, NodeJs, ExpressJs",
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/zbq5rrhkqt63eodwcxcs.jpg",
       "gif_url": "",
       "live_url": "https://readab-le.herokuapp.com/",
@@ -92,7 +92,7 @@
 
     "would-you-rather": {
       "name": "Would You Rather",
-      "description": "Would you rather is a web app that let's a user play the game Would you Rather?. Users need to be logged in to see the application content and the game goes like this: A user is asked a question in the form: 'Would You Rather? [option A] or [option B]' The app will let users answer questions, see already answered questions, create a new question and see the top 3 users on a ranking leaderboard.",
+      "description": "\n \t Would you rather is a web app that let's a user play the game Would you Rather?. Users need to be logged in to see the application content and the game goes like this: A user is asked a question in the form: 'Would You Rather? [option A] or [option B]' The app will let users answer questions, see already answered questions, create a new question and see the top 3 users on a ranking leaderboard.",
       "image_url": "https://res.cloudinary.com/dbitfc2gx/image/upload/v1644465274/would-you-rather_eqcdsk.png",
       "gif_url": "",
       "live_url": "https://the-would-you-rather-game.netlify.app",
@@ -101,7 +101,7 @@
 
     "my-reads": {
       "name": "My Reads",
-      "description": "MyReads is a bookshelf app that allows us to select and categorize books that we have read, currently reading, or want to read and also to view details of a particular book on a different page. The project emphasizes using React Fundamentals to build the application and provides an API server and client library to persist information as we interact with the application.",
+      "description": "\n \t MyReads is a bookshelf app that allows us to select and categorize books that we have read, currently reading, or want to read and also to view details of a particular book on a different page. The project emphasizes using React Fundamentals to build the application and provides an API server and client library to persist information as we interact with the application.",
       "image_url": "https://res.cloudinary.com/dbitfc2gx/image/upload/v1644464021/my-reads1_xsqopn.png",
       "gif_url": "",
       "live_url": "http://my-reads-project.vercel.app/",
