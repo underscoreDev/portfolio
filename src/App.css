@@ -1,0 +1,186 @@
+.app {
+  height: 100vh;
+  height: var(--app-height);
+  max-width: 100%;
+  backface-visibility: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #040505;
+  background-repeat: no-repeat;
+  background-image: url(./Assets/images/back2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.app > *:not(.app__overlay) {
+  position: relative;
+  border-radius: 5px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.app__logo {
+  width: 120px;
+  padding: 20px;
+}
+
+.app__menu-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.app__menu-icon {
+  display: none;
+}
+
+.app__nav {
+  transform: translate(0, 0);
+  transition: all 0.5s;
+}
+
+.app__nav--home {
+  transform: translate(-10000px, 10000px);
+}
+
+.app__nav-list {
+  display: flex;
+  margin-right: 20px;
+}
+
+.app__nav-item {
+  margin: 15px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.app__nav-icon {
+  margin-right: 10px;
+  display: none;
+}
+
+.app__nav-link,
+.app__nav-link:hover {
+  position: relative;
+  font-size: 1.1em;
+}
+
+.app__nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 70%;
+  height: 0.2em;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translate3d(-100%, 0, 0) translate3d(-1px, 0, 0);
+  transition: transform 0.7s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.app__nav-link:hover::after,
+.app__nav-link--active::after {
+  transform: translate3d(0, 0, 0);
+  background: #af3b86;
+}
+
+.app__nav-close {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .app__menu-icon {
+    display: block;
+  }
+  .app__nav {
+    transform: translateX(2000px);
+    transition: transform 0.5s ease-in;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 20px;
+    background-color: #af3b86;
+    z-index: 2000;
+    overflow-y: auto;
+  }
+  .app__nav.show {
+    transform: translateX(0);
+  }
+  .app__nav-list {
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .app__nav-item {
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .app__nav:hover .app__nav-item {
+    justify-content: flex-end;
+    width: auto;
+  }
+  /* Fix for shifted resume icon */
+  .app__nav:hover .app__nav-item:nth-of-type(3) .app__nav-icon {
+    margin-left: -5px;
+  }
+  .app__nav-icon {
+    display: block;
+  }
+  .app__nav-link--active + .app__nav-icon path,
+  .app__nav-link:hover + .app__nav-icon path {
+    fill: rgb(0, 238, 255);
+  }
+  .app__nav-link {
+    font-size: 1.1em;
+    text-indent: -10000px;
+  }
+  .app__nav:hover .app__nav-link {
+    text-indent: unset;
+  }
+  .app__nav-link:hover::after,
+  .app__nav-link--active::after {
+    transform: translate3d(0, 0, 0);
+    background: rgb(0, 238, 255);
+  }
+  .app__nav-close {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 0 10px 60px auto;
+    border: none;
+    background-color: transparent;
+  }
+  .app__name {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+  }
+  .app__role {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .app__text-cont {
+    width: 90%;
+  }
+  .app__menu-btn {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,116 @@
+.landing-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(var(--app-height) - 125px);
+}
+
+.landing-page__content {
+  width: 55%;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+.landing-page__name {
+  font-family: "Cantora One", sans-serif;
+  font-family: "Merienda One", cursive;
+}
+
+.landing-page__name {
+  font-size: 4em;
+  margin-left: -2px;
+  margin-bottom: 20px;
+}
+
+.landing-page__role {
+  font-size: 1.9em;
+}
+
+.landing-page__cursor {
+  font-size: 1.9em;
+}
+
+.landing-page__nav {
+  margin-top: 20px;
+}
+
+.landing-page__nav-list {
+  display: flex;
+}
+
+.landing-page__nav-item {
+  margin: 15px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.landing-page__nav-icon {
+  margin-right: 10px;
+  display: none;
+}
+
+.landing-page__nav-link {
+  color: white;
+  position: relative;
+  font-size: 1.1em;
+}
+
+.landing-page__nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 70%;
+  height: 0.2em;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translate3d(-100%, 0, 0) translate3d(-1px, 0, 0);
+  transition: transform 0.7s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.landing-page__nav-link:hover::after,
+.landing-page__nav-link--active::after {
+  transform: translate3d(0, 0, 0);
+  background: #af3b86;
+}
+
+.landing-page__nav-close {
+  display: none;
+}
+
+.landing-page .social {
+  margin-top: 25px;
+  display: flex;
+}
+
+.landing-page .social__item {
+  margin-right: 30px;
+}
+
+.landing-page .social__icon:hover {
+  fill: #af3b86;
+}
+
+@media only screen and (max-width: 750px) {
+  .landing-page__nav {
+    display: none;
+  }
+  .landing-page__name {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+  }
+  .landing-page__role {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .landing-page__content {
+    width: 90%;
+  }
+}

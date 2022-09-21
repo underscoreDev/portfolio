@@ -1,0 +1,219 @@
+.resume-page {
+  width: 90%;
+  overflow-y: auto;
+  height: calc(var(--app-height) - 125px);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+  margin: 0 auto 40px;
+  max-width: 1400px;
+}
+
+.resume-page__header {
+  margin-bottom: 30px;
+}
+
+.resume-page__heading {
+  margin: 0;
+  /* color: #FAA84B; */
+}
+
+.resume-page__heading--main {
+  color: #af3b86;
+  font-family: "Merienda One", cursive;
+  font-size: 3em;
+}
+
+.resume-page__subheading {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.resume-page__subheading--body {
+  color: #777;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.resume-page__content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.resume-page__content:first-of-type {
+  flex-shrink: 0;
+}
+
+.resume-page__content-left {
+  margin-right: 20px;
+  width: calc(35% - 20px);
+  max-width: 350px;
+}
+
+.resume-page__content-left,
+.resume-page__content-right {
+  width: 65%;
+  position: relative;
+}
+
+.work {
+  position: relative;
+  /* margin-bottom: 40px; */
+  margin-bottom: 30px;
+  margin-top: 15px;
+  z-index: 10;
+}
+
+.work__timeline {
+  color: #af3b86;
+  font-size: 1.1em;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.work__role {
+  font-size: 1.2em;
+  color: black;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.work__company {
+  width: fit-content;
+  background: #af3b8626;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #333;
+}
+
+.work__summary,
+.education__summary {
+  white-space: pre-wrap;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.work-wrapper::after,
+.education-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: -51px;
+  width: 2px;
+  background: #ccc;
+}
+
+.education {
+  position: relative;
+  margin-bottom: 40px;
+  z-index: 10;
+}
+
+.education__degree {
+  margin: 0 0 5px;
+  color: #af3b86;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.education__school {
+  font-style: italic;
+  margin: 0;
+}
+
+.education__timeline {
+  display: inline-block;
+  background: #af3b8626;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 0.8em;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #333;
+}
+
+.work__summary::after,
+.education__summary::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -58px;
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 0 0 0 8px #af3b864d;
+  background: #af3b86;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tech__logo {
+  width: 45px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .resume-page {
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .resume-page__content {
+    flex-direction: column;
+  }
+  .resume-page__content-left,
+  .resume-page__content-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .work-wrapper,
+  .education-wrapper {
+    margin-left: 30px;
+  }
+  .work-wrapper::after,
+  .education-wrapper::after {
+    left: 0;
+  }
+  .work__summary::after,
+  .education__summary::after {
+    left: -37px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .resume-page {
+    padding: 40px 20px;
+  }
+  .resume-page__heading {
+    font-size: 1.8em;
+  }
+  .resume-page__heading--main {
+    font-size: 2.3em;
+  }
+  .resume-page__subheading {
+    font-size: 1.1em;
+  }
+  .education__degree,
+  .work__role {
+    font-size: 1.1em;
+  }
+  .work__timeline {
+    font-size: 1em;
+  }
+}

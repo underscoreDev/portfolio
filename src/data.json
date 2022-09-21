@@ -1,0 +1,111 @@
+{
+  "social": {
+    "email": "gimmex1@gmail.com",
+    "github": "https://github.com/underscoreDev",
+    "twitter": "https://twitter.com/___boolean",
+    "linkedIn": "https://www.linkedin.com/in/godswill-edet/"
+  },
+  "education": [
+    {
+      "degree": "Cloud Developer Nanodegree",
+      "school": "Udacity, Inc.",
+      "timeline": { "from": "Jul 2022", "to": "Oct 2022" },
+      "summary": "\t• Cloud Foundations - Learnt the fundamentals of cloud computing while being introduced to compute power, security, storage, networking, messaging, and management services in the cloud. \n\t • Full Stack Apps on AWS ‑ Designed and deployed scalable, extendable, and maintainable full stack applications using modern cloud architecture. \n\t• Monolith to Microservices at Scale ‑ Learnt best practices on how to develop and deploy microservices, with a focus on different microservice architecture patterns, independent scaling, resiliency, securing microservices, and best practices for monitoring and logging. \n\t• Develop and Deploy Serverless App ‑ Learnt both the theory of using serverless technologies with the practice of developing a complex server‑less application and focuses on learning by doing. I learnt advanced serverless features such as implementing WebSockets and stream processing."
+    },
+    {
+      "degree": "Fullstack Javascript Developer Nanodegree",
+      "school": "Udacity, Inc.",
+      "timeline": { "from": "May 2022", "to": "Aug 2022" },
+      "summary": "\t• Backend Development with Node.js - Learnt how to work with Node.js and the core modules available, writing TypeScript for developer error reduction, testing with Jasmine to introduce unit testing in a Test Driven Development environment, and working with Express as a framework for building APIs. \n\t • Creating an API with PostgreSQL and Express ‑ This course covers the primary skills required for API development. I built a RESTful JSON API with Node and Postgres. Along the way, I learnt essential topics like databases and querying, API architecture, database migrations, REST, CRUD, creating a testing environment, password hashing and route authorization via JWTs. By completing the exercises and course content, I gained the knowledge to create a secure, well organized API from scratch and learnt skills JavaScript developers use every day. \n\t• Deployment Process (CI/CD, EBk, S3, Circle‑CI) ‑ Learnt how to create a production environment and automate the deployment of code to it. Built automated pipelines and wrote scripts to gain insights into the world of automated deployments."
+    },
+
+    {
+      "degree": "React Developer Nanodegree",
+      "school": "Udacity, Inc.",
+      "timeline": { "from": "Jul 2021", "to": "Nov 2021" },
+      "summary": "• This was a project‑based learning journey building declarative user interfaces, making state more predictable, and boosting app efficiency and robustness. I also had the opportunity to develop mobile apps for iOS and Android devices using React-native.\n\n\t• React Fundamentals\n\t• React and Redux\n\t• React Native"
+    },
+    {
+      "degree": "BEng. in Electrical Electronics Engineering",
+      "school": "Federal University of Technology Owerri, Nigeria.",
+      "timeline": { "from": "Jan 2017", "to": "Dec 2022" },
+      "summary": "• CGPA: 4.12 (In-View)  \n• Candidate for a Bachelor of Engineering Degree in Electrical Electronics Engineering"
+    }
+  ],
+  "work": [
+    {
+      "role": "Fullstack Software Engineer",
+      "location": "Lagos, Nigeria",
+      "company": "DegX",
+      "timeline": { "from": "Feb 2022", "to": "Present" },
+      "summary": "• Currently Building DegX An all in one Blockchain platform that utilizes the power of Web3 to create a one way suite for interacting with different Defi protocols crosschain and also gives you full non custodial wallet functionalities. \n • Built a fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, CircleCI, and several AWS stack(Including EC2, ECS, Elastic Beanstalk, S3, CloudFront, RDS, IAM), focusing on high availability, fault tolerance, and auto scaling.\n • Developed secure backend services and Implemented several API microservices in NodeJs, Typescript, ExpressJs and in a NoSQL Database.\n • Made use of NextJs, Typescript, Redux for implementation of all frontend / user facing interfaces focusing on well structured code architecture, and an easy to use user interface"
+    },
+    {
+      "role": "Frontend Engineer",
+      "location": "Armsterdam, Netherlands",
+      "company": "Zimmerman B.V",
+      "timeline": { "from": "Dec 2021", "to": "June 2022" },
+      "summary": "• Worked in Agile‑driven organization to effectively maintain project timelines, deliver end‑to‑end functioning applications and quality products that impact users. \n• Enhanced the performance of the company’s website by applying effective SEO strategies, resulting in a score of 87% in Page Speed performance.\n• Wrote End‑to‑End tests with the Cypress Library to ensure that all code meets product requirements before it’s deployed to production.\n• Built user interface, data visualizations and designed overall user experience, resulting in increased sales.\n• Reviewed and tested customer‑facing prototypes before deployment, applying best practice diagnostic principles to verify usability.\n• Programming Languages / Libraries Used: Typescript, React, Cypress, Redux, ExpressJs, Easy‑Peasy, NodeJs etc."
+    },
+    {
+      "role": "Frontend Engineer",
+      "location": "Lagos, Nigeria",
+      "company": "Hotels.Ng",
+      "timeline": { "from": "Aug 2021", "to": "Nov 2021" },
+      "summary": "• Lead a team of ten in building a Direct messaging Plugin for the zuri.chat web app (An app Similar to Slack). \n• Converted the zuri.chat web app to a single‑spa enabling teammates to deploy their microfrontends independently, resulting in a 30 percent increase in application load time. \n• Built a Scalable and real‑time messaging server, resulting in seamless, fast and instant sending of messages between two participants/users in a chat room. \n• Programming Languages / Libraries Used : JavaScript, React, Redux, NodeJs, UI/UX Design etc."
+    },
+    {
+      "role": "Frontend Engineer",
+      "location": "Lagos, Nigeria",
+      "company": "Zuri Team",
+      "timeline": { "from": "April 2021", "to": "July 2021" },
+      "summary": "• Converted various figma designs into responsive and interactive web pages using HTML, Scss, JavaScript, ReactJs and Redux. \n• Worked with the React‑thunk, library to make asynchronous API calls to implement creating of chat rooms and creating of users for a chat app. \n• Implemented seamless Switching of Chat rooms between two or more users. \n• Programming Languages / Libraries Used : JavaScript, React, Redux, HTML, CSS/SASS etc."
+    }
+  ],
+  "projects": {
+    "Audiophile-Frontend": {
+      "name": "Audiophile Frontend",
+      "description": "• Audiophile is a Fullstack e‑commerce online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user‑friendly format and keeping accessibility in mind \n • TECH STACK: Typescript, Redux‑Toolkit, NextJs, Styled-Components, Material-UI, Framer-motion, Formik and Yup for Form Validation.",
+      "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
+      "gif_url": "",
+      "live_url": "https://audiophile-frontend-seven.vercel.app/",
+      "github_url": "https://github.com/underscoreDev/audiophile-frontend"
+    },
+
+    "Audiophile-Backend": {
+      "name": "Audiophile Backend API",
+      "description": "• Backend Repo for Audiophile e-commerce website. Audiophile is a online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user-friendly format and keeping accessibility in mind \n • TECH STACK: Typescript, NodeJs, MongoDB, Mongoose, ExpressJs, Flutterwave Webhook API Integration, Sharp (for Image Processing), AWS SDK, Bcrypt and JWT for Authentication",
+      "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
+      "gif_url": "",
+      "live_url": "https://audiophile-frontend-seven.vercel.app/",
+      "github_url": "https://github.com/underscoreDev/audiophile-backend"
+    },
+
+    "Readable": {
+      "name": "Readable",
+      "description": "• Readable is a Fullstack content and comment web application similar to reddit built with Next.js for the frontend and NodeJs for the backend, In the app Users will be able to post content to predefined categories, comment on their posts and other users posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments. \n • TECH STACK: Javascript, NodeJs, ExpressJs",
+      "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/zbq5rrhkqt63eodwcxcs.jpg",
+      "gif_url": "",
+      "live_url": "https://readab-le.herokuapp.com/",
+      "github_url": "https://github.com/Godswilldev/Readable"
+    },
+
+    "would-you-rather": {
+      "name": "Would You Rather",
+      "description": "Would you rather is a web app that let's a user play the game Would you Rather?. Users need to be logged in to see the application content and the game goes like this: A user is asked a question in the form: 'Would You Rather? [option A] or [option B]' The app will let users answer questions, see already answered questions, create a new question and see the top 3 users on a ranking leaderboard.",
+      "image_url": "https://res.cloudinary.com/dbitfc2gx/image/upload/v1644465274/would-you-rather_eqcdsk.png",
+      "gif_url": "",
+      "live_url": "https://the-would-you-rather-game.netlify.app",
+      "github_url": "https://github.com/Godswilldev/Would_You_Rather"
+    },
+
+    "my-reads": {
+      "name": "My Reads",
+      "description": "MyReads is a bookshelf app that allows us to select and categorize books that we have read, currently reading, or want to read and also to view details of a particular book on a different page. The project emphasizes using React Fundamentals to build the application and provides an API server and client library to persist information as we interact with the application.",
+      "image_url": "https://res.cloudinary.com/dbitfc2gx/image/upload/v1644464021/my-reads1_xsqopn.png",
+      "gif_url": "",
+      "live_url": "http://my-reads-project.vercel.app/",
+      "github_url": "https://github.com/Godswilldev/MyReads-Project"
+    }
+  }
+}
