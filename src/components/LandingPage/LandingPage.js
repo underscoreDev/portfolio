@@ -8,7 +8,6 @@ import {
   GithubIcon,
   LinkedinIcon,
   TwitterIcon,
-  InstagramIcon,
 } from "../../images/icons/icons";
 import data from "../../data.json";
 
@@ -47,7 +46,6 @@ const LandingPage = () => {
                 autoStart: true,
                 loop: true,
                 wrapperClassName: "landing-page__role",
-                loop: true,
                 cursorClassName: "landing-page__cursor",
               }}
             />
@@ -64,6 +62,7 @@ const LandingPage = () => {
                 href={data.social.github}
                 className="social__link"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="Github"
               >
                 <GithubIcon className="social__icon" />
@@ -75,6 +74,7 @@ const LandingPage = () => {
                 href={data.social.linkedIn}
                 className="social__link"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon className="social__icon" width={27} />
@@ -86,6 +86,7 @@ const LandingPage = () => {
                 href={"mailto:" + data.social.email}
                 className="social__link"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="Email"
               >
                 <EmailIcon className="social__icon" />
@@ -97,6 +98,7 @@ const LandingPage = () => {
                 href={data.social.twitter}
                 className="social__link"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="Twitter"
               >
                 <TwitterIcon className="social__icon" />

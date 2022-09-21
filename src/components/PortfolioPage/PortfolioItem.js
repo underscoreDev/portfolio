@@ -38,8 +38,9 @@ const PortfolioItem = ({ closeNav, match }) => {
           >
             <a
               className="device-wrapper"
-              href={project.gif_url || project.image_url}
+              href={project.github_url}
               target="_blank"
+              rel="noreferrer"
             >
               <div
                 className="device tooltip"
@@ -70,35 +71,27 @@ const PortfolioItem = ({ closeNav, match }) => {
               dangerouslySetInnerHTML={{ __html: project.description }}
             />
             <div className="portfolio-item__link-wrapper">
-              {project.github_url ? (
-                <ReactGA.OutboundLink
-                  eventLabel="Clicked github link for portfolio item"
-                  to={project.github_url}
-                  target="_blank"
-                  className="portfolio-item__link portfolio-item__link--github"
-                >
-                  <GithubIcon
-                    width={20}
-                    className="portfolio-item__link-icon"
-                  />{" "}
-                  View on Github
-                </ReactGA.OutboundLink>
-              ) : (
-                <a />
-              )}
-              {project.live_url ? (
-                <ReactGA.OutboundLink
-                  eventLabel="Clicked live link for portfolio item"
-                  to={project.live_url}
-                  className="portfolio-item__link portfolio-item__link--live"
-                  target="_blank"
-                >
-                  <LiveIcon width={20} className="portfolio-item__link-icon" />{" "}
-                  View Live
-                </ReactGA.OutboundLink>
-              ) : (
-                <a />
-              )}
+              <ReactGA.OutboundLink
+                eventLabel="Clicked github link for portfolio item"
+                to={project.github_url}
+                target="_blank"
+                rel="noreferrer"
+                className="portfolio-item__link portfolio-item__link--github"
+              >
+                <GithubIcon width={20} className="portfolio-item__link-icon" />{" "}
+                View on Github
+              </ReactGA.OutboundLink>
+
+              <ReactGA.OutboundLink
+                eventLabel="Clicked live link for portfolio item"
+                to={project.live_url}
+                className="portfolio-item__link portfolio-item__link--live"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LiveIcon width={20} className="portfolio-item__link-icon" />{" "}
+                View Live
+              </ReactGA.OutboundLink>
             </div>
           </Fade>
         </div>

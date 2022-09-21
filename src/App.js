@@ -47,7 +47,7 @@ function App() {
     return () => {
       window.removeEventListener("resize", updateAppHeight);
     };
-  }, []);
+  });
 
   useEffect(() => {
     if (
@@ -71,7 +71,7 @@ function App() {
   const updateAppHeight = useCallback(() => {
     const doc = document.documentElement;
     doc.style.setProperty("--app-height", `${window.innerHeight}px`);
-  }, [window.innerHeight]);
+  }, []);
 
   const renderNavLink = ({ label, path, icon: Icon, iconWidth }) => (
     <li className="app__nav-item" key={path}>

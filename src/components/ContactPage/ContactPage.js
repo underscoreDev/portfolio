@@ -4,14 +4,39 @@ import {
   GithubIcon,
   LinkedinIcon,
   TwitterIcon,
-  InstagramIcon,
 } from "../../images/icons/icons";
 import data from "../../data.json";
 import Fade from "react-reveal/Fade";
 import { useForm } from "@formspree/react";
+import { useToasts } from "react-toast-notifications";
+import ReactGA from "react-ga";
 
 const ContactPage = () => {
-  const [state, handleSubmit] = useForm("mvoykezd");
+  const { addToast } = useToasts();
+  const [state, handleSubmit, reset] = useForm("mvoykezd");
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    ReactGA.event({
+      category: "Contact Form",
+      action: "Submit",
+    });
+
+    handleSubmit()
+      .then(() => {
+        addToast(
+          "Your message was sent successfully. I'll get back to you shortly.",
+          { appearance: "success", autoDismiss: true }
+        );
+        reset();
+      })
+      .catch(() => {
+        addToast("Something went wrong while sending your message.", {
+          appearance: "error",
+          autoDismiss: true,
+        });
+      });
+  };
 
   return (
     <section className="contact-page">
@@ -43,7 +68,7 @@ const ContactPage = () => {
               </p>
             </div>
             <div className="contact-page__content-right">
-              <form className="contact-page__form" onSubmit={handleSubmit}>
+              <form className="contact-page__form" onSubmit={handleFormSubmit}>
                 <input
                   className="contact-page__input"
                   placeholder="Your name"
@@ -106,6 +131,7 @@ const ContactPage = () => {
                   <a
                     href={data.social.github}
                     target="_blank"
+                    rel="noreferrer"
                     className="social__link"
                   >
                     <GithubIcon className="social__icon" fill="black" />
@@ -117,6 +143,7 @@ const ContactPage = () => {
                     href={data.social.linkedIn}
                     className="social__link"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <LinkedinIcon
                       className="social__icon"
@@ -131,19 +158,10 @@ const ContactPage = () => {
                     href={data.social.twitter}
                     className="social__link"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <TwitterIcon className="social__icon" fill="#1DA1F2" />
                     Twitter
-                  </a>
-                </li>
-                <li className="social__item">
-                  <a
-                    href={data.social.instagram}
-                    className="social__link"
-                    target="_blank"
-                  >
-                    <InstagramIcon className="social__icon" fill="#E1306C" />
-                    Instagram
                   </a>
                 </li>
               </ul>

@@ -92,6 +92,7 @@ const AboutPage = () => {
                     <a
                       href="https://www.udacity.com/course/react-nanodegree--nd019"
                       target="_blank"
+                      rel="noreferrer"
                       className="about-page__services-link"
                     >
                       <HTMLIcon className="about-page__services-icon" />
@@ -104,6 +105,7 @@ const AboutPage = () => {
                     <a
                       href="https://www.udacity.com/course/full-stack-javascript-developer-nanodegree--nd0067"
                       target="_blank"
+                      rel="noreferrer"
                       className="about-page__services-link"
                     >
                       <CodeBracesIcon className="about-page__services-icon" />
@@ -116,6 +118,7 @@ const AboutPage = () => {
                     <a
                       href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990"
                       target="_blank"
+                      rel="noreferrer"
                       className="about-page__services-link"
                     >
                       <WebIcon className="about-page__services-icon" />

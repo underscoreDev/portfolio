@@ -2,12 +2,8 @@ import React from "react";
 import "./ResumePage.css";
 import Fade from "react-reveal/Fade";
 import data from "../../data.json";
-import javascript from "../../images/tech/javascript.svg";
 import git from "../../images/tech/git.svg";
-import python from "../../images/tech/python.svg";
-import react from "../../images/tech/react.svg";
 import html5 from "../../images/tech/html5.svg";
-import css3 from "../../images/tech/css3.svg";
 
 const ResumePage = () => {
   return (
