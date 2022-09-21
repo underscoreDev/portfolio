@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ContactPage.css";
 import {
   GithubIcon,
@@ -14,19 +14,36 @@ import ReactGA from "react-ga";
 const ContactPage = () => {
   const { addToast } = useToasts();
   const [state, handleSubmit, reset] = useForm("mvoykezd");
-
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const onChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     ReactGA.event({
       category: "Contact Form",
       action: "Submit",
     });
+
     try {
       await handleSubmit(e);
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+
       addToast(
         "Your message was sent successfully. I'll get back to you shortly.",
         { appearance: "success", autoDismiss: true }
       );
+
       reset();
     } catch (error) {
       addToast("Something went wrong while sending your message.", {
@@ -71,8 +88,10 @@ const ContactPage = () => {
                 <input
                   className="contact-page__input"
                   placeholder="Your name"
+                  onChange={onChange}
                   name="name"
                   id="name"
+                  value={formData.name}
                   aria-label="Your name"
                   required
                 />
@@ -80,9 +99,11 @@ const ContactPage = () => {
                 <input
                   className="contact-page__input"
                   placeholder="Email address"
+                  onChange={onChange}
                   aria-label="Email address"
                   name="email"
                   id="email"
+                  value={formData.email}
                   type="email"
                   required
                 />
@@ -90,17 +111,21 @@ const ContactPage = () => {
                 <input
                   className="contact-page__input contact-page__input--full"
                   placeholder="Subject"
+                  onChange={onChange}
                   aria-label="Subject"
                   name="subject"
+                  value={formData.subject}
                   id="subject"
                 />
 
                 <textarea
                   className="contact-page__input contact-page__textarea"
                   placeholder="Message"
+                  onChange={onChange}
                   aria-label="Message"
                   name="message"
                   id="message"
+                  value={formData.message}
                   required
                 ></textarea>
 
