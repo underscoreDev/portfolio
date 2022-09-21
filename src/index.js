@@ -8,13 +8,11 @@ import { ToastProvider } from "react-toast-notifications";
 import "html5-device-mockups/dist/device-mockups.min.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-      <ToastProvider placement="top-left">
-        <App />
-      </ToastProvider>
-    </Router>
-  </React.StrictMode>,
+  <Router>
+    <ToastProvider placement="top-left">
+      <App />
+    </ToastProvider>
+  </Router>,
   document.getElementById("root")
 );
 

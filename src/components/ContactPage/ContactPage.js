@@ -21,21 +21,20 @@ const ContactPage = () => {
       category: "Contact Form",
       action: "Submit",
     });
-
-    handleSubmit()
-      .then(() => {
-        addToast(
-          "Your message was sent successfully. I'll get back to you shortly.",
-          { appearance: "success", autoDismiss: true }
-        );
-        reset();
-      })
-      .catch(() => {
-        addToast("Something went wrong while sending your message.", {
-          appearance: "error",
-          autoDismiss: true,
-        });
+    try {
+      await handleSubmit(e);
+      addToast(
+        "Your message was sent successfully. I'll get back to you shortly.",
+        { appearance: "success", autoDismiss: true }
+      );
+      reset();
+    } catch (error) {
+      addToast("Something went wrong while sending your message.", {
+        appearance: "error",
+        autoDismiss: true,
       });
+      console.error(error);
+    }
   };
 
   return (
