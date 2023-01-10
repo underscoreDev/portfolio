@@ -2,7 +2,7 @@
   "social": {
     "email": "gimmex1@gmail.com",
     "github": "https://github.com/underscoreDev",
-    "twitter": "https://twitter.com/___boolean",
+    "twitter": "https://twitter.com/9th_Creator",
     "linkedIn": "https://www.linkedin.com/in/godswill-edet/"
   },
   "education": [
@@ -29,30 +29,49 @@
       "degree": "BEng. in Electrical Electronics Engineering",
       "school": "Federal University of Technology Owerri, Nigeria.",
       "timeline": { "from": "Jan 2017", "to": "Dec 2022" },
-      "summary": "• CGPA: 4.12 (In-View)  \n• Candidate for a Bachelor of Engineering Degree in Electrical Electronics Engineering"
+      "summary": "• CGPA: 4.0  \n• Candidate for a Bachelor of Engineering Degree in Electrical Electronics Engineering"
     }
   ],
   "work": [
     {
-      "role": "Fullstack Software Engineer",
-      "location": "Lagos, Nigeria",
-      "company": "DegX",
-      "timeline": { "from": "Feb 2022", "to": "Present" },
-      "summary": "• Currently Building DegX An all in one Blockchain platform that utilizes the power of Web3 to create a one way suite for interacting with different Defi protocols crosschain and also gives you full non custodial wallet functionalities. \n • Built a fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, CircleCI, and several AWS stack(Including EC2, ECS, Elastic Beanstalk, S3, CloudFront, RDS, IAM), focusing on high availability, fault tolerance, and auto scaling.\n • Developed secure backend services and Implemented several API microservices in NodeJs, Typescript, ExpressJs and in a NoSQL Database.\n • Made use of NextJs, Typescript, Redux for implementation of all frontend / user facing interfaces focusing on well structured code architecture, and an easy to use user interface"
+      "role": "Backend Engineer",
+      "location": "Remote",
+      "company": "Yaraa.io",
+      "timeline": { "from": "Oct 2022", "to": "Nov 2022" },
+      "summary": "• Setup a CI/CD Pipeline to enable other developers to ship more application products and features while reducing errors and mistakes, boosting
+                  productivity, and increasing customer sentiment as well as providing them with the proper understanding of the app development cycle.\n
+                  • Provisioned endpoints for Integrating Yaraa.io procurement system with other identified accounting systems. e.g Microsoft Dynamics 365, Odoo ERP,
+                  Amazon, Business, Zero Accounting, Oracle Netsuite.\n
+                  • Spear‑headed the development of current stack to drive project go‑live, this includes updating current code / database structure and endpoints to
+                  ensure feature works accurately on yaraa.io platform.\n
+                  • Re‑architected and maintaining a RESTful API using NestJs/NodeJs with third‑party API Integrations such as AWS S3, to enrich customer experience.\n
+                  • Technical Skills: NestJS, NodeJs, Express, MySQL, TypeORM, CircleCI, AWS Services(Elastic Beanstalk, S3, RDS).\n
+                  • Soft Skills: Teamwork, Communication."
     },
     {
       "role": "Frontend Engineer",
       "location": "Armsterdam, Netherlands",
       "company": "Zimmerman B.V",
       "timeline": { "from": "Dec 2021", "to": "June 2022" },
-      "summary": "• Worked in Agile‑driven organization to effectively maintain project timelines, deliver end‑to‑end functioning applications and quality products that impact users. \n• Enhanced the performance of the company’s website by applying effective SEO strategies, resulting in a score of 87% in Page Speed performance.\n• Wrote End‑to‑End tests with the Cypress Library to ensure that all code meets product requirements before it’s deployed to production.\n• Built user interface, data visualizations and designed overall user experience, resulting in increased sales.\n• Reviewed and tested customer‑facing prototypes before deployment, applying best practice diagnostic principles to verify usability.\n• Programming Languages / Libraries Used: Typescript, React, Cypress, Redux, ExpressJs, Easy‑Peasy, NodeJs etc."
-    },
+      "summary": "• Worked in Agile‑driven organization to effectively maintain project timelines, deliver end‑to‑end functioning applications and quality products that impact users.\n
+                  • Enhanced the performance of the company’s website by applying effective SEO strategies, resulting in a score of 87 in Page Speed performance.\n
+                  • Wrote End‑to‑End tests with the Cypress Library to ensure that all code meets product requirements before it’s deployed to production.\n
+                  • Built user interface, data visualizations dashboards and designed overall user experience, resulting in increased sales.\n
+                  • Reviewed and tested customer‑facing prototypes before deployment, applying best practice diagnostic principles to verify usability.\n
+                  • Produced websites compatible with multiple browsers to meet specific requirements such as quick‑loading sites with particular layouts.\n
+                  • Technical Skills: Typescript, React, Cypress, Redux, ExpressJs, Easy‑Peasy.\n
+                  • Soft Skills: Collaboration, Problem‑Solving." },
     {
       "role": "Frontend Engineer",
-      "location": "Lagos, Nigeria",
-      "company": "Hotels.Ng",
+      "location": "Remote, Lagos, Nigeria",
+      "company": "HNG Internship",
       "timeline": { "from": "Aug 2021", "to": "Nov 2021" },
-      "summary": "• Lead a team of ten in building a Direct messaging Plugin for the zuri.chat web app (An app Similar to Slack). \n• Converted the zuri.chat web app to a single‑spa enabling teammates to deploy their microfrontends independently, resulting in a 30 percent increase in application load time. \n• Built a Scalable and real‑time messaging server, resulting in seamless, fast and instant sending of messages between two participants/users in a chat room. \n• Programming Languages / Libraries Used : JavaScript, React, Redux, NodeJs, UI/UX Design etc."
+      "summary": "• Acted in leadership capacity in the design and development of software for a complex web application, by translating software requirements into working and maintainable solutions within the existing application frameworks
+                  • Liaised with other developers, designers and DevOps Engineers to identify new features
+                  • Implemented pre‑approved UI, constructing API endpoints, connecting the two, and setting up server infrastructure. This includes all associated areas such as database and architecture design.
+                  • Overseeing and guiding the analyzing, writing, building, and deployment of software
+                  • Technical Skills: Redux, SCSS, React, Javascript, NodeJS, ExpressJs Git.
+                  • Soft Skills: Accountability, Leadership, Communication."
     },
     {
       "role": "Frontend Engineer",
@@ -68,8 +87,8 @@
       "description": "\n \t • Audiophile is a Fullstack e‑commerce online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user‑friendly format and keeping accessibility in mind. \n \t • TECH STACK: Typescript, Redux‑Toolkit, NextJs, Styled-Components, Material-UI, Framer-motion, Formik and Yup for Form Validation.",
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
       "gif_url": "",
-      "live_url": "https://audiophile-frontend-seven.vercel.app/",
-      "github_url": "https://github.com/underscoreDev/audiophile-frontend"
+      "live_url": "https://audiophi.vercel.app/",
+      "github_url": "https://github.com/Godswilldev/audiophile-frontend"
     },
 
     "Audiophile-Backend-API": {
@@ -77,8 +96,8 @@
       "description": "\n \t• Backend API for Audiophile e-commerce website.  \n \t• TECH STACK: Typescript, NodeJs, MongoDB, Mongoose, ExpressJs, Flutterwave Webhook API Integration, Sharp (for Image Processing), AWS SDK, Bcrypt and JWT for Authentication",
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
       "gif_url": "",
-      "github_url": "https://github.com/underscoreDev/audiophile-backend",
-      "live_url": "https://github.com/underscoreDev/audiophile-backend"
+      "github_url": "https://github.com/Godswilldev/audiophile-backend",
+      "live_url":  "https://github.com/Godswilldev/audiophile-backend"
     },
 
     "Readable": {
@@ -86,7 +105,7 @@
       "description": " \n \t• Readable is a Fullstack content and comment web application similar to reddit built with Next.js for the frontend and NodeJs for the backend, In the app Users will be able to post content to predefined categories, comment on their posts and other users posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments. \n • TECH STACK: Javascript, NodeJs, ExpressJs",
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/zbq5rrhkqt63eodwcxcs.jpg",
       "gif_url": "",
-      "live_url": "https://readab-le.herokuapp.com/",
+      "live_url": "https://readable-342jtfdt1-godswilldev.vercel.app",
       "github_url": "https://github.com/Godswilldev/Readable"
     },
 
