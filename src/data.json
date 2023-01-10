@@ -3,7 +3,7 @@
     "email": "gimmex1@gmail.com",
     "github": "https://github.com/underscoreDev",
     "twitter": "https://twitter.com/9th_Creator",
-    "linkedIn": "https://www.linkedin.com/in/godswill-edet/"
+    "linkedIn": "https://www.linkedin.com/in/godswill-edet"
   },
   "education": [
     {
@@ -35,43 +35,24 @@
   "work": [
     {
       "role": "Backend Engineer",
-      "location": "Remote",
+      "location": "Remote, Ontario, Canada",
       "company": "Yaraa.io",
       "timeline": { "from": "Oct 2022", "to": "Nov 2022" },
-      "summary": "• Setup a CI/CD Pipeline to enable other developers to ship more application products and features while reducing errors and mistakes, boosting
-                  productivity, and increasing customer sentiment as well as providing them with the proper understanding of the app development cycle.\n
-                  • Provisioned endpoints for Integrating Yaraa.io procurement system with other identified accounting systems. e.g Microsoft Dynamics 365, Odoo ERP,
-                  Amazon, Business, Zero Accounting, Oracle Netsuite.\n
-                  • Spear‑headed the development of current stack to drive project go‑live, this includes updating current code / database structure and endpoints to
-                  ensure feature works accurately on yaraa.io platform.\n
-                  • Re‑architected and maintaining a RESTful API using NestJs/NodeJs with third‑party API Integrations such as AWS S3, to enrich customer experience.\n
-                  • Technical Skills: NestJS, NodeJs, Express, MySQL, TypeORM, CircleCI, AWS Services(Elastic Beanstalk, S3, RDS).\n
-                  • Soft Skills: Teamwork, Communication."
+      "summary": "• Setup a CI/CD Pipeline to enable other developers to ship more application products and features while reducing errors and mistakes, boosting productivity, and increasing customer sentiment as well as providing them with the proper understanding of the app development cycle.\n• Provisioned endpoints for Integrating Yaraa.io procurement system with other identified accounting systems. e.g Microsoft Dynamics 365, Odoo ERP, Amazon, Business, Zero Accounting, Oracle Netsuite.\n• Spear‑headed the development of current stack to drive project go‑live, this includes updating current code / database structure and endpoints to ensure feature works accurately on yaraa.io platform.\n• Re‑architected and maintaining a RESTful API using NestJs/NodeJs with third‑party API Integrations such as AWS S3, to enrich customer experience.\n• Technical Skills: NestJS, NodeJs, Express, MySQL, TypeORM, CircleCI, AWS Services(Elastic Beanstalk, S3, RDS).\n• Soft Skills: Teamwork, Communication."
     },
     {
       "role": "Frontend Engineer",
-      "location": "Armsterdam, Netherlands",
+      "location": "Remote Armsterdam, Netherlands",
       "company": "Zimmerman B.V",
       "timeline": { "from": "Dec 2021", "to": "June 2022" },
-      "summary": "• Worked in Agile‑driven organization to effectively maintain project timelines, deliver end‑to‑end functioning applications and quality products that impact users.\n
-                  • Enhanced the performance of the company’s website by applying effective SEO strategies, resulting in a score of 87 in Page Speed performance.\n
-                  • Wrote End‑to‑End tests with the Cypress Library to ensure that all code meets product requirements before it’s deployed to production.\n
-                  • Built user interface, data visualizations dashboards and designed overall user experience, resulting in increased sales.\n
-                  • Reviewed and tested customer‑facing prototypes before deployment, applying best practice diagnostic principles to verify usability.\n
-                  • Produced websites compatible with multiple browsers to meet specific requirements such as quick‑loading sites with particular layouts.\n
-                  • Technical Skills: Typescript, React, Cypress, Redux, ExpressJs, Easy‑Peasy.\n
-                  • Soft Skills: Collaboration, Problem‑Solving." },
+      "summary": "• Worked in Agile‑driven organization to effectively maintain project timelines, deliver end‑to‑end functioning applications and quality products that impact users.\n• Enhanced the performance of the company’s website by applying effective SEO strategies, resulting in a score of 87 in Page Speed performance.\n• Wrote End‑to‑End tests with the Cypress Library to ensure that all code meets product requirements before it’s deployed to production.\n• Built user interface, data visualizations dashboards and designed overall user experience, resulting in increased sales.\n• Reviewed and tested customer‑facing prototypes before deployment, applying best practice diagnostic principles to verify usability.\n• Produced websites compatible with multiple browsers to meet specific requirements such as quick‑loading sites with particular layouts.\n• Technical Skills: Typescript, React, Cypress, Redux, ExpressJs, Easy‑Peasy.\n• Soft Skills: Collaboration, Problem‑Solving."
+    },
     {
       "role": "Frontend Engineer",
       "location": "Remote, Lagos, Nigeria",
       "company": "HNG Internship",
       "timeline": { "from": "Aug 2021", "to": "Nov 2021" },
-      "summary": "• Acted in leadership capacity in the design and development of software for a complex web application, by translating software requirements into working and maintainable solutions within the existing application frameworks
-                  • Liaised with other developers, designers and DevOps Engineers to identify new features
-                  • Implemented pre‑approved UI, constructing API endpoints, connecting the two, and setting up server infrastructure. This includes all associated areas such as database and architecture design.
-                  • Overseeing and guiding the analyzing, writing, building, and deployment of software
-                  • Technical Skills: Redux, SCSS, React, Javascript, NodeJS, ExpressJs Git.
-                  • Soft Skills: Accountability, Leadership, Communication."
+      "summary": "• Acted in leadership capacity in the design and development of software for a complex web application, by translating software requirements into working and maintainable solutions within the existing application frameworks.\n• Liaised with other developers, designers and DevOps Engineers to identify new features.\n• Implemented pre‑approved UI, constructing API endpoints, connecting the two, and setting up server infrastructure. This includes all associated areas such as database and architecture design.\n• Overseeing and guiding the analyzing, writing, building, and deployment of software.\n• Technical Skills: Redux, SCSS, React, Javascript, NodeJS, ExpressJs Git.\n• Soft Skills: Accountability, Leadership, Communication."
     },
     {
       "role": "Frontend Engineer",
