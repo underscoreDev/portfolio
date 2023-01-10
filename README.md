@@ -1,5 +1,5 @@
-# My temporary portfolio website.
+# My portfolio website.
 
 View live here: [Portfolio]
 
-[portfolio]: https://godswill-portfolio.vercel.app/
+[portfolio]: https://godswill.vercel.app
