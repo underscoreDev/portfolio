@@ -44,7 +44,7 @@
       "role": "Backend Engineer",
       "location": "Remote, Ontario, Canada",
       "company": "Yaraa.io",
-      "timeline": { "from": "Oct 2022", "to": "Nov 2022" },
+      "timeline": { "from": "Oct 2022", "to": "Dec 2022" },
       "summary": "• Setup a CI/CD Pipeline to enable other developers to ship more application products and features while reducing errors and mistakes, boosting productivity, and increasing customer sentiment as well as providing them with the proper understanding of the app development cycle.\n• Provisioned endpoints for Integrating Yaraa.io procurement system with other identified accounting systems. e.g Microsoft Dynamics 365, Odoo ERP, Amazon, Business, Zero Accounting, Oracle Netsuite.\n• Spear‑headed the development of current stack to drive project go‑live, this includes updating current code / database structure and endpoints to ensure feature works accurately on yaraa.io platform.\n• Re‑architected and maintaining a RESTful API using NestJs/NodeJs with third‑party API Integrations such as AWS S3, to enrich customer experience.\n• Technical Skills: NestJS, NodeJs, Express, MySQL, TypeORM, CircleCI, AWS Services(Elastic Beanstalk, S3, RDS).\n• Soft Skills: Teamwork, Communication."
     },
     {
