@@ -73,8 +73,7 @@ const AboutPage = () => {
                 </strong>
                 <ul className="about-page__list">
                   <li className="about-page__list-item">
-                    Current displaying my expertise as a Fullstack Developer at
-                    a startup DegX.
+                    Current job hunting.
                   </li>
                 </ul>
               </p>

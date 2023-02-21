@@ -1,7 +1,7 @@
 {
   "social": {
     "email": "gimmex1@gmail.com",
-    "github": "https://github.com/underscoreDev",
+    "github": "https://github.com/Godswilldev",
     "twitter": "https://twitter.com/9th_Creator",
     "linkedIn": "https://www.linkedin.com/in/godswill-edet"
   },
@@ -35,6 +35,13 @@
   "work": [
     {
       "role": "Backend Engineer",
+      "location": "Remote, Lagos, Nigeria",
+      "company": "Revent Technologies",
+      "timeline": { "from": "Jan 2023", "to": "present" },
+      "summary": "• Engineered a highly efficient and scalable backend architecture using NestJS, Node.js, and Express, resulting in a 40 percent increase in system performance. \n• Implemented advanced database management strategies utilizing PostgreSQL and Sequelize, leading to a 60 percent reduction in query response times. \n• Automated deployment and integration workflows using CircleCI and AWS Elastic Beanstalk, reducing manual errors by 70 percent. \n• Streamlined data storage and retrieval processes by integrating AWS S3, resulting in a 50 percent increase in data access speed. \n• Enhanced database reliability by migrating to Amazon RDS, ensuring 100 percent uptime and reducing downtime by 90 percent."
+    },
+    {
+      "role": "Backend Engineer",
       "location": "Remote, Ontario, Canada",
       "company": "Yaraa.io",
       "timeline": { "from": "Oct 2022", "to": "Nov 2022" },
@@ -63,6 +70,15 @@
     }
   ],
   "projects": {
+    "Contract-Management-API": {
+      "name": "Contract Management API",
+      "description": "\n \t • A Contract management application built with nestjs. Contract Management Backend API. To automate the lifecycle of a contract between two parties. (From creation to execution). \n \t • TECH STACK: Typescript, NestJS, MySQL, TypeORM, AWS-SDK, CI/CD, Circle-CI, AWS Elastic-Beanstalk, AWS-S3",
+      "image_url": "https://raw.githubusercontent.com/Godswilldev/contract-management-api/main/Screenshot%20(139).png",
+      "gif_url": "",
+      "live_url": "https://con-mgt.up.railway.app/",
+      "github_url": "https://github.com/Godswilldev/contract-management-api"
+    },
+
     "Audiophile-Frontend": {
       "name": "Audiophile Frontend",
       "description": "\n \t • Audiophile is a Fullstack e‑commerce online store that sells luxury and branded audio gadgets ranging from earphones, speakers, to headsets. The main aim of this web application is to present the products in the most user‑friendly format and keeping accessibility in mind. \n \t • TECH STACK: Typescript, Redux‑Toolkit, NextJs, Styled-Components, Material-UI, Framer-motion, Formik and Yup for Form Validation.",
@@ -78,7 +94,7 @@
       "image_url": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xfevkvpujubwentbteg6.jpg",
       "gif_url": "",
       "github_url": "https://github.com/Godswilldev/audiophile-backend",
-      "live_url":  "https://github.com/Godswilldev/audiophile-backend"
+      "live_url": "https://github.com/Godswilldev/audiophile-backend"
     },
 
     "Readable": {
