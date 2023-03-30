@@ -7,6 +7,7 @@ import {
   EmailIcon,
   GithubIcon,
   LinkedinIcon,
+  ResumeIcon,
   TwitterIcon,
 } from "../../images/icons/icons";
 import data from "../../data.json";
@@ -102,6 +103,18 @@ const LandingPage = () => {
                 aria-label="Twitter"
               >
                 <TwitterIcon className="social__icon" />
+              </a>
+            </li>
+
+            <li className="social__item">
+              <a
+                href={data.social.resume}
+                className="social__link"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Twitter"
+              >
+                <ResumeIcon className="social__icon" />
               </a>
             </li>
           </ul>

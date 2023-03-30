@@ -3,7 +3,8 @@
     "email": "gimmex1@gmail.com",
     "github": "https://github.com/Godswilldev",
     "twitter": "https://twitter.com/9th_Creator",
-    "linkedIn": "https://www.linkedin.com/in/godswill-edet"
+    "linkedIn": "https://www.linkedin.com/in/godswill-edet",
+    "resume": "https://drive.google.com/file/d/17M0u9HFYpbRpJLaNYGNtNy5cVzqmGd57/view?usp=sharing"
   },
   "education": [
     {
@@ -44,7 +45,7 @@
       "role": "Backend Engineer",
       "location": "Remote, Ontario, Canada",
       "company": "Yaraa.io",
-      "timeline": { "from": "Oct 2022", "to": "Dec 2022" },
+      "timeline": { "from": "July 2022", "to": "Dec 2022" },
       "summary": "• Revolutionized the application development and deployment process by deploying a powerful CI/CD pipeline using CircleCI, resulting in a 50% reduction in errors and mistakes, a 20% increase in productivity, and a significant boost in customer satisfaction by providing a clear and comprehensive understanding of the development cycle.\n• Designed and deployed integrative endpoints that connected Yaraa.io procurement system with multiple accounting systems, including Microsoft Dynamics 365, Odoo ERP, Amazon Business, Zero Accounting, and Oracle Netsuite, resulting in improved data flow and efficiency.\n• Championed the development efforts for the Yaraa.io platform, updating code, database structure, and endpoints to ensure feature accuracy, leading to a successful go‑live and positive impact on business operations.\n• Transformed the API architecture by implementing a robust and scalable RESTful API using NestJS/NodeJS, integrating with AWS S3, and enriching the customer experience by providing seamless API integration and improved performance."
     },
     {
