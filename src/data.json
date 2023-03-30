@@ -38,35 +38,35 @@
       "location": "Remote, Lagos, Nigeria",
       "company": "Revent Technologies",
       "timeline": { "from": "Jan 2023", "to": "present" },
-      "summary": "• Engineered a highly efficient and scalable backend architecture using NestJS, Node.js, and Express, resulting in a 40 percent increase in system performance. \n• Implemented advanced database management strategies utilizing PostgreSQL and Sequelize, leading to a 60 percent reduction in query response times. \n• Automated deployment and integration workflows using CircleCI and AWS Elastic Beanstalk, reducing manual errors by 70 percent. \n• Streamlined data storage and retrieval processes by integrating AWS S3, resulting in a 50 percent increase in data access speed. \n• Enhanced database reliability by migrating to Amazon RDS, ensuring 100 percent uptime and reducing downtime by 90 percent."
+      "summary": "• Engineered a highly efficient and scalable backend architecture using NestJS, Node.js, and Express, resulting in a 40% increase in system performance. \n• Implemented advanced database management strategies utilizing PostgreSQL and Sequelize, leading to a 60% reduction in query response times. \n• Automated deployment and integration workflows using CircleCI and AWS Elastic Beanstalk, reducing manual errors by 70%. \n• Streamlined data storage and retrieval processes by integrating AWS S3, resulting in a 50% increase in data access speed. \n• Enhanced database reliability by migrating to Amazon RDS, ensuring 100% uptime and reducing downtime by 90%."
     },
     {
       "role": "Backend Engineer",
       "location": "Remote, Ontario, Canada",
       "company": "Yaraa.io",
       "timeline": { "from": "Oct 2022", "to": "Dec 2022" },
-      "summary": "• Setup a CI/CD Pipeline to enable other developers to ship more application products and features while reducing errors and mistakes, boosting productivity, and increasing customer sentiment as well as providing them with the proper understanding of the app development cycle.\n• Provisioned endpoints for Integrating Yaraa.io procurement system with other identified accounting systems. e.g Microsoft Dynamics 365, Odoo ERP, Amazon, Business, Zero Accounting, Oracle Netsuite.\n• Spear‑headed the development of current stack to drive project go‑live, this includes updating current code / database structure and endpoints to ensure feature works accurately on yaraa.io platform.\n• Re‑architected and maintaining a RESTful API using NestJs/NodeJs with third‑party API Integrations such as AWS S3, to enrich customer experience.\n• Technical Skills: NestJS, NodeJs, Express, MySQL, TypeORM, CircleCI, AWS Services(Elastic Beanstalk, S3, RDS).\n• Soft Skills: Teamwork, Communication."
+      "summary": "• Revolutionized the application development and deployment process by deploying a powerful CI/CD pipeline using CircleCI, resulting in a 50% reduction in errors and mistakes, a 20% increase in productivity, and a significant boost in customer satisfaction by providing a clear and comprehensive understanding of the development cycle.\n• Designed and deployed integrative endpoints that connected Yaraa.io procurement system with multiple accounting systems, including Microsoft Dynamics 365, Odoo ERP, Amazon Business, Zero Accounting, and Oracle Netsuite, resulting in improved data flow and efficiency.\n• Championed the development efforts for the Yaraa.io platform, updating code, database structure, and endpoints to ensure feature accuracy, leading to a successful go‑live and positive impact on business operations.\n• Transformed the API architecture by implementing a robust and scalable RESTful API using NestJS/NodeJS, integrating with AWS S3, and enriching the customer experience by providing seamless API integration and improved performance."
     },
     {
       "role": "Frontend Engineer",
       "location": "Remote Armsterdam, Netherlands",
       "company": "Zimmerman B.V",
       "timeline": { "from": "Dec 2021", "to": "June 2022" },
-      "summary": "• Worked in Agile‑driven organization to effectively maintain project timelines, deliver end‑to‑end functioning applications and quality products that impact users.\n• Enhanced the performance of the company’s website by applying effective SEO strategies, resulting in a score of 87 in Page Speed performance.\n• Wrote End‑to‑End tests with the Cypress Library to ensure that all code meets product requirements before it’s deployed to production.\n• Built user interface, data visualizations dashboards and designed overall user experience, resulting in increased sales.\n• Reviewed and tested customer‑facing prototypes before deployment, applying best practice diagnostic principles to verify usability.\n• Produced websites compatible with multiple browsers to meet specific requirements such as quick‑loading sites with particular layouts.\n• Technical Skills: Typescript, React, Cypress, Redux, ExpressJs, Easy‑Peasy.\n• Soft Skills: Collaboration, Problem‑Solving."
+      "summary": "• Developed robust and scalable applications in an Agile environment, ensuring project timelines were met and delivering high-quality products with a significant impact on users.\n• Optimized the performance of the company’s current website by utilizing SEO strategies, resulting in a Page Speed performance score of 87.\n• Implemented comprehensive end‑to‑end testing using Cypress Library to guarantee that code met product requirements and ensured a seamless deployment to production.\n• Conducted thorough reviews and testing of customer‑facing prototypes using the cypress library, applying best practices to verify usability, resulting in a smooth deployment process.\n• Delivered websites that were compatible with multiple browsers, ensuring fast‑loading sites with visually appealing layouts, meeting specific requirements and delivering an optimal user experience."
     },
     {
-      "role": "Frontend Engineer",
+      "role": "Backend Engineer",
       "location": "Remote, Lagos, Nigeria",
       "company": "HNG Internship",
       "timeline": { "from": "Aug 2021", "to": "Nov 2021" },
       "summary": "• Acted in leadership capacity in the design and development of software for a complex web application, by translating software requirements into working and maintainable solutions within the existing application frameworks.\n• Liaised with other developers, designers and DevOps Engineers to identify new features.\n• Implemented pre‑approved UI, constructing API endpoints, connecting the two, and setting up server infrastructure. This includes all associated areas such as database and architecture design.\n• Overseeing and guiding the analyzing, writing, building, and deployment of software.\n• Technical Skills: Redux, SCSS, React, Javascript, NodeJS, ExpressJs Git.\n• Soft Skills: Accountability, Leadership, Communication."
     },
     {
-      "role": "Frontend Engineer",
+      "role": "Backend Engineer",
       "location": "Lagos, Nigeria",
       "company": "Zuri Team",
       "timeline": { "from": "April 2021", "to": "July 2021" },
-      "summary": "• Converted various figma designs into responsive and interactive web pages using HTML, Scss, JavaScript, ReactJs and Redux. \n• Worked with the React‑thunk, library to make asynchronous API calls to implement creating of chat rooms and creating of users for a chat app. \n• Implemented seamless Switching of Chat rooms between two or more users. \n• Programming Languages / Libraries Used : JavaScript, React, Redux, HTML, CSS/SASS etc."
+      "summary": "• Improved development processes and technologies by recommending and implementing best practices, resulting in a 20% reduction in development time and a 15% increase in overall productivity.\n• Designed and implemented scalable backend services, resulting in a 50% increase in system performance and a reduction of server response time by 30%.\n• Developed and implemented robust security protocols and data protection measures, resulting in zero data breaches and ensuring compliance with industry standards.\n • Collaborated effectively with front‑end developers to integrate new features and functionalities, resulting in a seamless user experience and a 25% reduction in bug reports."
     }
   ],
   "projects": {
