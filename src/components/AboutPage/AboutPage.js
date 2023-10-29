@@ -37,12 +37,8 @@ const AboutPage = () => {
                 <strong className="about-page__text--bold"> Who am I? </strong>
                 <ul className="about-page__list">
                   <li className="about-page__list-item">
-                    Godswill is a dedicated and solution-oriented Fullstack
-                    Software Developer with 2+ years of experience in designing
-                    and creating clean, responsive, and interactive websites and
-                    web applications. He is a Udacity certified Fullstack
-                    Javascript Developer, React Developer and Currently
-                    transitioning into the Cloud/DevOps Engineering Field
+Godswill is a Results‑driven Backend Cloud Engineer with a proven track record of architecting and optimizing scalable cloud infrastructures. Proficient in designing and deploying robust backend systems, enhancing reliability, and maximizing performance. He is Adept at problem‑
+solving and collaborating with cross‑functional teams to ensure seamless operations.
                   </li>
                 </ul>
               </p>
@@ -54,8 +50,8 @@ const AboutPage = () => {
                 </strong>
                 <ul className="about-page__list">
                   <li className="about-page__list-item">
-                    Anyone can fix a problem or develop a solution but my 2+
-                    years of experience as a "Fullstack Developer" has taught me
+                    Anyone can fix a problem or develop a solution but my 3+
+                    years of experience as a "Software Engineer" has taught me
                     beyond this, Don't just build a solution but design the BEST
                     solution which is Futuristic, Scalable, Reliable, Handy, Low
                     maintenance, No complexity, Open to Interoperability and
