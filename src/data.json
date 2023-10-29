@@ -4,7 +4,7 @@
     "github": "https://github.com/Godswilldev",
     "twitter": "https://twitter.com/9th_Creator",
     "linkedIn": "https://www.linkedin.com/in/godswill-edet",
-    "resume": "https://drive.google.com/file/d/17M0u9HFYpbRpJLaNYGNtNy5cVzqmGd57/view?usp=sharing"
+    "resume": "https://drive.google.com/file/d/1MiNtdBMQT-xuIf57SpdzT7bZ_w9IRBIz/view?usp=sharing"
   },
   "education": [
     {
@@ -36,9 +36,16 @@
   "work": [
     {
       "role": "Backend Engineer",
+      "location": "Remote, Dubai, UAE",
+      "company": "Reneum Technology Labs",
+      "timeline": { "from": "May 2023", "to": "present" }, 
+      "summary": "• In my second month with the company, I migrated and optimized all our AWS Services (EC2 Servers, Databases, S3 Buckets, IAM users) from an old AWS Account to a new One, saving the company’s AWS costs by 25 percent. \n • Engineered a highly efficient and scalable Backend architecture using NestJS, and Graphql, resulting in a 40 percent increase in system performance \n• Collaborated with the Web3 team to integrate Web3 services and frameworks (web3.js, ether.js, siwe etc) into the Backend system. \n• Developed an Automated Continuous Integration and Continuous Deployment(CI/CD) pipeline using Githubworkflow and AWS‑EC2, reducing manual errors by 70 percent. \n• Enhanced database reliability by migrating to Amazon RDS, with manual and automated backups ensuring 100 percent uptime and reducing all forma of data loss."
+    },
+    {
+      "role": "Backend Engineer",
       "location": "Remote, Lagos, Nigeria",
       "company": "Revent Technologies",
-      "timeline": { "from": "Jan 2023", "to": "present" },
+      "timeline": { "from": "Jan 2023", "to": "May 2023" }, 
       "summary": "• Engineered a highly efficient and scalable backend architecture using NestJS, Node.js, and Express, resulting in a 40% increase in system performance. \n• Implemented advanced database management strategies utilizing PostgreSQL and Sequelize, leading to a 60% reduction in query response times. \n• Automated deployment and integration workflows using CircleCI and AWS Elastic Beanstalk, reducing manual errors by 70%. \n• Streamlined data storage and retrieval processes by integrating AWS S3, resulting in a 50% increase in data access speed. \n• Enhanced database reliability by migrating to Amazon RDS, ensuring 100% uptime and reducing downtime by 90%."
     },
     {
